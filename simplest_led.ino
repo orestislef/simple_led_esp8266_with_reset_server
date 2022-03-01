@@ -26,8 +26,8 @@
 #define PIN_LED 16//D0
 #define PIN_RESET 0//D3
 
-const char *ssid = "COSMOTE-172863";
-const char *password = "eekduf7277hheur8";
+const char *ssid = "<|your ssid here|>";
+const char *password = "<|your wifi-password here|>";
 
 void blink_led(int interval, int count) {
 	for (int i = 0; i < count; i++) {
